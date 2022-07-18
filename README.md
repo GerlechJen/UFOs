@@ -9,6 +9,19 @@ The new webpage will be updated with the search criteria after pressing "Enter".
 ## Summary
 In this new design a filter button should have been included using the code 
 
-so that when the user is donr entering the filters needed that button vcan be clicked to begin the search.
+```html
+<li class="list-group" class="btn-dark">
+    <button id="filter-btn" type="button" class="btn-dark">Filter Table</button>
+</li>
 
-Also, an additional button should have been created which clears all filters applied when clicked. So the 
+```
+
+so that when the user is done entering the filters needed, the button can be clicked to update the table. For the current webpage a user has to click "enter" or anywhere outside the "Filter Search" area for the filters to be applied. This might not be very obvious to new users and a "Filter Table" button would have been a better option. 
+
+Also, an additional "Clear Table" button should have been created to clear all filters applied once clicked by the user. With that, the table would go back to the default state. With this current webpage for the table to go back to default, all filters that have been applied would have to be manually deleted. The code that could have created the 'Clear Tabl"e button is shown below:
+
+```html
+<li class="list-group" class="btn-dark">
+    <button id ="clear-btn" type="button" class="btn-dark"> Clear Table</button>
+</li>
+```
