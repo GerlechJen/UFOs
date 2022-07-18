@@ -7,10 +7,17 @@ Continuing further with the project, more in-depth analysis of UFO sightings wil
 The new webpage will be updated with the search criteria after pressing "Enter".
 
 ## Results
+Upon getting to the website, what the user will see is the title 
 ![image1](https://github.com/GerlechJen/UFOs/blob/main/static/images/UFO%20Webpage.png)
 
+As the user scrolls down the page the data can be seen as well as the filter search which shows all the different filters possible. 
+As seen from the image below we have 5 different filters to choose from; the date, city, state, country & shape. 
 ![image2](https://github.com/GerlechJen/UFOs/blob/main/static/images/UFO%20Webpage%20Filter.png)
+You can fill in data for any of the filters press enter, then the HTML page will show all of the sightings for the applied filter. Multiple filters can be entered at to narrow down teh search criteria. 
 
+When the table was filtered based on these specified filters for el cajon city, just two results were obtained as shown below:
+
+![image3](https://github.com/GerlechJen/UFOs/blob/main/static/images/Webpage%20Filtered.png)
 
 ## Summary
 In this new design a filter button should have been included using the code 
@@ -31,3 +38,4 @@ Also, an additional "Clear Table" button should have been created to clear all f
     <button id ="clear-btn" type="button" class="btn-dark"> Clear Table</button>
 </li>
 ```
+Also the filters like city, state and country should not be case sensitive. As it stands now if the city for instance is spelt as 
