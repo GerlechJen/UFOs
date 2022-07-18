@@ -1,12 +1,14 @@
 # UFOs
-In this project, a dynamic webpage was built by inserting javascript into an HTML page, 
+In this project, using JavaScript, an HTML table was built to organize UFO data that is stored in a JavaScript array. A date filter was created to filter the entire table by date.This filter is to enable users refine their search. The table was then placed into an HTML file for easy viewing . The dynamic webpage was customized using Bootstrap.
 
-Using JavaScript, an HTML table was built to organize UFO data that is stored in a JavaScript array. Filters were added to the table which enabled users to refine their search
-The table was then placed into an HTML file for easy viewing . The webpage was customized using Bootstrap
+Continuing further with the project, more in-depth analysis of UFO sightings will be provided by allowing users to filter for multiple criteria at the same time. In addition to the date filter, filters for the city, state, country, and shape will be included.
+
+The new webpage will be updated with the search criteria after pressing "Enter".
 
 
-Sighting information. Country, city, state, type of sighting and so on.
+## Summary
+In this new design a filter button should have been included using the code 
 
-A date filter was created to filter the entire tabble by date. 
+so that when the user is donr entering the filters needed that button vcan be clicked to begin the search.
 
-Continuing furthet withthe project, more in-depth analysis of UFO sightings will be provided by allowing users to filter for multiple criteria at the same time. In addition to the date filter , table filters for the city, state, country, and shape will be included.
+Also, an additional button should have been created which clears all filters applied when clicked. So the 
