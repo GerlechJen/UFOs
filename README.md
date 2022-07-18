@@ -9,6 +9,8 @@ The new webpage will be updated with the search criteria after pressing "Enter".
 ## Results
 ![image1](https://github.com/GerlechJen/UFOs/blob/main/static/images/UFO%20Webpage.png)
 
+![image2](https://github.com/GerlechJen/UFOs/blob/main/static/images/UFO%20Webpage%20Filter.png)
+
 
 ## Summary
 In this new design a filter button should have been included using the code 
