@@ -7,6 +7,7 @@ Continuing further with the project, more in-depth analysis of UFO sightings wil
 The new webpage will be updated with the search criteria after pressing "Enter".
 
 ## Results
+![image1](https://github.com/GerlechJen/UFOs/blob/main/static/images/UFO%20Webpage.png)
 
 
 ## Summary
