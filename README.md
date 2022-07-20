@@ -25,7 +25,7 @@ For example when the table was filtered based on these specified filters for el 
 
 ![image3](https://github.com/GerlechJen/UFOs/blob/main/static/images/Webpage%20Filtered.png)
 
-To do a new filter or search, the user can clear out the previously entered data and input new one. The table will go back to default if the user clears every entered data from the search or refreshes the browser. 
+To do a new filter or search, the user can clear out the previously entered data and input new one. The table will go back to default if the user either clears every entered data from the search criteria or refreshes the browser. 
 
 ## Summary
 One drawback of this current design is that after a user has filtered the table based on a search criteria, if the user wants to mae another search he/she would have to:
