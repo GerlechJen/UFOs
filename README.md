@@ -1,16 +1,20 @@
 # UFOs
 ## Overview of Project
-Using JavaScript, an HTML table was built to organize UFO data that is stored in a JavaScript array. A date filter was created to filter the entire table by date.This filter is to enable users refine their search. The table was then placed into an HTML file for easy viewing. The dynamic webpage was customized using Bootstrap.
+  The dynamic webpage was customized using Bootstrap.
 
-Continuing further with the project, more in-depth analysis of UFO sightings will be provided by allowing users to filter for multiple criteria at the same time. In addition to the date filter, filters for the city, state, country, and shape will be included. The new webpage will be updated with the search criteria after pressing "Enter".
+In this module a dynamic webpage was built by inserting JavaScript into an HTML page for easy viewing. A table was built to hold and neatly display UFO data that is stored in a JavaScript array. The dynamic webpage works by accepting user inputs and visually adjusting to reflect user interactions or choices. Initially, a date filter for the table was created to filter the entire table by date.This filter is to enable users refine their search. in more than ne level. 
+Bootsrap and CSS was used to customize the webpage. 
+
+McMinnville, Oregon
+
+Continuing further, in this project more in-depth analysis of the UFO sightings will be provided by allowing users to filter for multiple criteria at the same time. In addition to the date filter, filters for the city, state, country, and shape will be included. The new webpage will be updated with the search criteria after pressing "Enter".
 
 ## Results
-Upon getting to the website, what the user will see is the title 
+To see the final dynamic webpage developed, one can [click here](https://gerlechjen.github.io/UFOs/). Upon getting to the webpage, what the user will see is a page header,article title, and brief article as shown below:
 
 ![image1](https://github.com/GerlechJen/UFOs/blob/main/static/images/UFO%20Webpage.png)
 
-As the user scrolls down the page the data can be seen as well as the filter search which shows all the different filters possible. 
-As seen from the image below we have 5 different filters to choose from; the date, city, state, country & shape. 
+As the user scrolls down the page a table of sightings data can be seen, as well as the filters for the table. As seen from the image below we have 5 different filters to choose from; the date, city, state, country & shape. 
 
 ![image2](https://github.com/GerlechJen/UFOs/blob/main/static/images/UFO%20Webpage%20Filter.png)
 
@@ -33,7 +37,7 @@ This is not the best and my recommendation is that a "Filter Table" button and s
 
 This way when the user is done inputting the different search criteria, the "Filter Table" button can be clicked to update the table. 
 
-Also, I will recommend that a "Clear Table" button be included underneath the "Filter Table" button. The code that would create this button is shown below:
+For further development, I will also recommend that a "Clear Table" button be included underneath the "Filter Table" button. The code that would create this button is shown below:
 
 ```html
 <li class="list-group" class="btn-dark">
@@ -51,4 +55,4 @@ Also the filters like city, state and country should not be case sensitive. As i
 
 
 
-[click here](https://gerlechjen.github.io/UFOs/) for UFOs IO page on GitHub
+
