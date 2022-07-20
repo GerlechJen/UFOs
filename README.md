@@ -5,8 +5,6 @@
 In this module a dynamic webpage was built by inserting JavaScript into an HTML page for easy viewing. A table was built to hold and neatly display UFO data that is stored in a JavaScript array. The dynamic webpage works by accepting user inputs and visually adjusting to reflect user interactions or choices. Initially, a date filter for the table was created to filter the entire table by date.This filter is to enable users refine their search. in more than ne level. 
 Bootsrap and CSS was used to customize the webpage. 
 
-McMinnville, Oregon
-
 Continuing further, in this project more in-depth analysis of the UFO sightings will be provided by allowing users to filter for multiple criteria at the same time. In addition to the date filter, filters for the city, state, country, and shape will be included. The new webpage will be updated with the search criteria after pressing "Enter".
 
 ## Results
@@ -22,15 +20,21 @@ There are 5 different filters to choose from; the date, city, state, country & s
 
 ![image2](https://github.com/GerlechJen/UFOs/blob/main/static/images/UFO%20Webpage%20Filter.png)
 
-The user can fill in data for any of the filters press enter, then the HTML page will show all of the sightings for the applied filter. Multiple filters can be entered at to narrow down teh search criteria. 
+The user can choose any of the filters he/ she would want to search by, fill in the data then press enter. The webpage will show all of the sightings for the applied filter. Multiple filters can be entered at the same time to narrow down the search criteria even further. 
 
-When the table was filtered based on these specified filters for el cajon city, just two results were obtained as shown below:
+For example when the table was filtered based on these specified filters for el cajon city, just two results were obtained as shown below:
 
 ![image3](https://github.com/GerlechJen/UFOs/blob/main/static/images/Webpage%20Filtered.png)
 
+To do a new filter or search, the user can clear out the previously entered data and input new one. The table will go back to default if the user clears every entered data from the search or refreshes the browser. 
+
 ## Summary
-One draw back of this current design is that after a user has filtered the table based on a criteria search criteria if the user wants to search for another criteria he/she would have to take time to either clear out everything that has been inputted in the different criteria or reload the webpage by clicking on the link and pressing enter.
-This is not the best and my recommendation is that a "Filter Table" button and should have been included using the code: 
+One drawback of this current design is that after a user has filtered the table based on a search criteria, if the user wants to mae another search he/she would have to:
+1. take time to clear out everything that had previously been inputted in the different criteria.
+2. refresh or reload the webpage by clicking on the link at the top and pressing enter.
+
+This is not the best and my recommendations for further development are that: 
+1. A "Filter Table" button should be added to the webpage using the html code: 
 
 ```html
 <li class="list-group" class="btn-dark">
@@ -41,7 +45,7 @@ This is not the best and my recommendation is that a "Filter Table" button and s
 
 This way when the user is done inputting the different search criteria, the "Filter Table" button can be clicked to update the table. 
 
-For further development, I will also recommend that a "Clear Table" button be included underneath the "Filter Table" button. The code that would create this button is shown below:
+2. A "Clear Table" button be added to the webpage just underneath the "Filter Table" button. The code that would create this button is shown below:
 
 ```html
 <li class="list-group" class="btn-dark">
@@ -49,14 +53,8 @@ For further development, I will also recommend that a "Clear Table" button be in
 </li>
 ```
 
-This button would be clicked to clear all filters applied. With that, the table would go back to the default state without manually deleting every single entry. 
+This button would be clicked to clear all filters applied. With that, the table would go back to the default state without manually having to delete every single entry. 
 
-These added features are also more interactive compared to what we have currently. The two additional buttons suggested, have names on them that  explain their use. Therefore, any new visitor to the webpage knows exactly what to do while navigating the webpage. 
+These added features will make the table more interactive compared to what we have currently. These buttons have their decriptive names on them that explain to any visitor to the webpage what they do once clicked. Therefore, any user will know exactly what to do while navigating the webpage. 
 
-
-Also the filters like city, state and country should not be case sensitive. As it stands now it is case sensitive and if the city for instance is spelt capitalized, 
-
-
-
-
-
+Interactive page???
