@@ -41,3 +41,6 @@ Also, an additional "Clear Table" button should have been created to clear all f
 Also the filters like city, state and country should not be case sensitive. As it stands now it is case sensitive and if the city for instance is spelt capitalized, 
 
 The webpage updates with the search criteria after pressing "Enter".
+
+
+[click here](https://gerlechjen.github.io/UFOs/) for UFOs IO page on GitHub
