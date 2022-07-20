@@ -1,6 +1,5 @@
 # UFOs
 ## Overview of Project
-  The dynamic webpage was customized using Bootstrap.
 
 In this module a dynamic webpage was built by inserting JavaScript into an HTML page for easy viewing. A table was built to hold and neatly display UFO data that is stored in a JavaScript array. The dynamic webpage works by accepting user inputs and visually adjusting to reflect user interactions or choices. Initially, a date filter for the table was created to filter the entire table by date.This filter is to enable users refine their search. in more than ne level. 
 Bootsrap and CSS was used to customize the webpage. 
@@ -43,7 +42,7 @@ This is not the best and my recommendations for further development are that:
 
 ```
 
-This way when the user is done inputting the different search criteria, the "Filter Table" button can be clicked to update the table. 
+This way when the user is done inputting the different search criteria, the "Filter Table" button can be clicked and the search criteria used will appear in the dynamic table. 
 
 2. A "Clear Table" button be added to the webpage just underneath the "Filter Table" button. The code that would create this button is shown below:
 
@@ -53,8 +52,6 @@ This way when the user is done inputting the different search criteria, the "Fil
 </li>
 ```
 
-This button would be clicked to clear all filters applied. With that, the table would go back to the default state without manually having to delete every single entry. 
+This button would be clicked to clear all filters applied so a new search can be done. Using thsi button, the table would go back to the default state without the user having to manually delete every single entry. 
 
-These added features will make the table more interactive compared to what we have currently. These buttons have their decriptive names on them that explain to any visitor to the webpage what they do once clicked. Therefore, any user will know exactly what to do while navigating the webpage. 
-
-Interactive page???
+These added features will make the table more interactive compared to what we have currently. The buttons have their decriptive names on them that explains to any visitor to the webpage what they do once clicked. As such, any user will know exactly what to do while navigating and filtering the webpage. 
