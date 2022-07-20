@@ -38,4 +38,4 @@ Also, an additional "Clear Table" button should have been created to clear all f
     <button id ="clear-btn" type="button" class="btn-dark"> Clear Table</button>
 </li>
 ```
-Also the filters like city, state and country should not be case sensitive. As it stands now if the city for instance is spelt as 
+Also the filters like city, state and country should not be case sensitive. As it stands now it is case sensitive and if the city for instance is spelt capitalized, 
