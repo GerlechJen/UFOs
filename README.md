@@ -14,11 +14,15 @@ To see the final dynamic webpage developed, one can [click here](https://gerlech
 
 ![image1](https://github.com/GerlechJen/UFOs/blob/main/static/images/UFO%20Webpage.png)
 
-As the user scrolls down the page a table of sightings data can be seen, as well as the filters for the table. As seen from the image below we have 5 different filters to choose from; the date, city, state, country & shape. 
+As the user scrolls down the page a table of sightings data can be seen, as well as the filters for the table. 
+
+![image5](https://github.com/GerlechJen/UFOs/blob/main/static/images/table%20with%20filter.png)
+
+There are 5 different filters to choose from; the date, city, state, country & shape. 
 
 ![image2](https://github.com/GerlechJen/UFOs/blob/main/static/images/UFO%20Webpage%20Filter.png)
 
-You can fill in data for any of the filters press enter, then the HTML page will show all of the sightings for the applied filter. Multiple filters can be entered at to narrow down teh search criteria. 
+The user can fill in data for any of the filters press enter, then the HTML page will show all of the sightings for the applied filter. Multiple filters can be entered at to narrow down teh search criteria. 
 
 When the table was filtered based on these specified filters for el cajon city, just two results were obtained as shown below:
 
