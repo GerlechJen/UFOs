@@ -1,10 +1,8 @@
 # UFOs
-## Overview
-In this project, using JavaScript, an HTML table was built to organize UFO data that is stored in a JavaScript array. A date filter was created to filter the entire table by date.This filter is to enable users refine their search. The table was then placed into an HTML file for easy viewing. The dynamic webpage was customized using Bootstrap.
+## Overview of Project
+Using JavaScript, an HTML table was built to organize UFO data that is stored in a JavaScript array. A date filter was created to filter the entire table by date.This filter is to enable users refine their search. The table was then placed into an HTML file for easy viewing. The dynamic webpage was customized using Bootstrap.
 
-Continuing further with the project, more in-depth analysis of UFO sightings will be provided by allowing users to filter for multiple criteria at the same time. In addition to the date filter, filters for the city, state, country, and shape will be included.
-
-The new webpage will be updated with the search criteria after pressing "Enter".
+Continuing further with the project, more in-depth analysis of UFO sightings will be provided by allowing users to filter for multiple criteria at the same time. In addition to the date filter, filters for the city, state, country, and shape will be included. The new webpage will be updated with the search criteria after pressing "Enter".
 
 ## Results
 Upon getting to the website, what the user will see is the title 
@@ -20,7 +18,8 @@ When the table was filtered based on these specified filters for el cajon city, 
 ![image3](https://github.com/GerlechJen/UFOs/blob/main/static/images/Webpage%20Filtered.png)
 
 ## Summary
-In this new design a filter button should have been included using the code 
+One draw back of this current design is that after a user has filtered the table based on a criteria search criteria if the user wants to search for another criteria he/she would have to take time to either clear out everything that has been inputted in the different criteria or reload the webpage by clicking on the link and pressing enter.
+This is not the best and my recommendation is that a "Filter Table" button and should have been included using the code: 
 
 ```html
 <li class="list-group" class="btn-dark">
@@ -29,9 +28,11 @@ In this new design a filter button should have been included using the code
 
 ```
 
-so that when the user is done entering the filters needed, the button can be clicked to update the table. For the current webpage a user has to click "enter" or anywhere outside the "Filter Search" area for the filters to be applied. This might not be very obvious to new users and a "Filter Table" button would have been a better option. 
+This way when the user is done inputting the different search criteria, the "Filter Table" button can be clicked to update the table. 
 
-Also, an additional "Clear Table" button should have been created to clear all filters applied once clicked by the user. With that, the table would go back to the default state. With this current webpage for the table to go back to default, all filters that have been applied would have to be manually deleted. The code that could have created the 'Clear Tabl"e button is shown below:
+Also, I will recommend that a "Clear Table" button be included underneath the "Filter Table" button. This button would be clicked to clear all filters applied. With that, the table would go back to the default state without manually deleting every single entry. 
+
+These added features are also more interactive compared to what we have currently. The two additional buttons suggested, have names on them that  explain their use. Therefore, any new visitor to the webpage knows exactly what to do while navigating the webpage. The code that could have created the 'Clear Tabl"e button is shown below:
 
 ```html
 <li class="list-group" class="btn-dark">
@@ -40,7 +41,7 @@ Also, an additional "Clear Table" button should have been created to clear all f
 ```
 Also the filters like city, state and country should not be case sensitive. As it stands now it is case sensitive and if the city for instance is spelt capitalized, 
 
-The webpage updates with the search criteria after pressing "Enter".
+
 
 
 [click here](https://gerlechjen.github.io/UFOs/) for UFOs IO page on GitHub
