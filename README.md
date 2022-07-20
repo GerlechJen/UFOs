@@ -39,3 +39,5 @@ Also, an additional "Clear Table" button should have been created to clear all f
 </li>
 ```
 Also the filters like city, state and country should not be case sensitive. As it stands now it is case sensitive and if the city for instance is spelt capitalized, 
+
+The webpage updates with the search criteria after pressing "Enter".
