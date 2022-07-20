@@ -6,11 +6,14 @@ Continuing further with the project, more in-depth analysis of UFO sightings wil
 
 ## Results
 Upon getting to the website, what the user will see is the title 
+
 ![image1](https://github.com/GerlechJen/UFOs/blob/main/static/images/UFO%20Webpage.png)
 
 As the user scrolls down the page the data can be seen as well as the filter search which shows all the different filters possible. 
 As seen from the image below we have 5 different filters to choose from; the date, city, state, country & shape. 
+
 ![image2](https://github.com/GerlechJen/UFOs/blob/main/static/images/UFO%20Webpage%20Filter.png)
+
 You can fill in data for any of the filters press enter, then the HTML page will show all of the sightings for the applied filter. Multiple filters can be entered at to narrow down teh search criteria. 
 
 When the table was filtered based on these specified filters for el cajon city, just two results were obtained as shown below:
@@ -30,15 +33,19 @@ This is not the best and my recommendation is that a "Filter Table" button and s
 
 This way when the user is done inputting the different search criteria, the "Filter Table" button can be clicked to update the table. 
 
-Also, I will recommend that a "Clear Table" button be included underneath the "Filter Table" button. This button would be clicked to clear all filters applied. With that, the table would go back to the default state without manually deleting every single entry. 
-
-These added features are also more interactive compared to what we have currently. The two additional buttons suggested, have names on them that  explain their use. Therefore, any new visitor to the webpage knows exactly what to do while navigating the webpage. The code that could have created the 'Clear Tabl"e button is shown below:
+Also, I will recommend that a "Clear Table" button be included underneath the "Filter Table" button. The code that would create this button is shown below:
 
 ```html
 <li class="list-group" class="btn-dark">
     <button id ="clear-btn" type="button" class="btn-dark"> Clear Table</button>
 </li>
 ```
+
+This button would be clicked to clear all filters applied. With that, the table would go back to the default state without manually deleting every single entry. 
+
+These added features are also more interactive compared to what we have currently. The two additional buttons suggested, have names on them that  explain their use. Therefore, any new visitor to the webpage knows exactly what to do while navigating the webpage. 
+
+
 Also the filters like city, state and country should not be case sensitive. As it stands now it is case sensitive and if the city for instance is spelt capitalized, 
 
 
