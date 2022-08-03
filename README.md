@@ -55,3 +55,9 @@ This way when the user is done inputting the different search criteria, the "Fil
 This button would be clicked to clear all filters applied so a new search can be done. Using thsi button, the table would go back to the default state without the user having to manually delete every single entry. 
 
 These added features will make the table more interactive compared to what we have currently. The buttons have their decriptive names on them that explains to any visitor to the webpage what they do once clicked. As such, any user will know exactly what to do while navigating and filtering the webpage. 
+
+----
+
+**Completed by:** Jennifer Anno-Kusi
+
+**Email:** jannokusi@gmail.com 
